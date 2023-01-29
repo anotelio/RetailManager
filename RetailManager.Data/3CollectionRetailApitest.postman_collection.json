@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "0be17f64-60e9-4729-a01d-62629266ae0a",
+		"name": "CollectionRetailApitest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CustomerGet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:4240/api/retail/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "4240",
+					"path": [
+						"api",
+						"retail",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

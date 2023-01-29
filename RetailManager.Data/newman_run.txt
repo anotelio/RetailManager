@@ -1,0 +1,7 @@
+newman run "P:\Github Projects\RetailManager\RetailManager.Data\1CollectionRetailApitest.postman_collection.json" -n 400 --insecure -r json,cli
+
+newman run "P:\Github Projects\RetailManager\RetailManager.Data\2CollectionRetailApitest.postman_collection.json" -n 400 --insecure -r json,cli
+
+newman run "P:\Github Projects\RetailManager\RetailManager.Data\3CollectionRetailApitest.postman_collection.json" -n 400 --insecure -r json,cli
+
+npm i newman-reporter-json-summary
